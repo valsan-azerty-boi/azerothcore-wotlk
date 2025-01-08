@@ -1,0 +1,4 @@
+src\server\game\Battlegrounds\Zones\BattlegroundAV.h
+
+#define BG_AV_SCORE_INITIAL_POINTS       600
+=> #define BG_AV_SCORE_INITIAL_POINTS       2000 (make reinforcements useless for a more vanilla feels)
