@@ -16,3 +16,14 @@ INSERT INTO `npc_vendor` (`entry`, `item`) VALUES
 (9000045, 9061), -- Goblin Rocket Fuel (Container)
 (9000033, 8150), -- Deeprock Salt (Food)
 (9000033, 21024); -- Chimaerok Tenderloin (Food)
+
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES
+(9000045, 16083), -- Skill books (Container)
+(9000045, 16082),
+(9000045, 27532),
+(9000045, 16072),
+(9000045, 16073),
+(9000045, 27736),
+(9000045, 16084),
+(9000045, 16085),
+(9000045, 22012);
