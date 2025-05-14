@@ -2,6 +2,10 @@ UPDATE `item_template` SET `ItemLevel` = 284, `RequiredLevel` = 0, `stat_value1`
 
 UPDATE `item_template` SET `ItemLevel` = 284, `RequiredLevel` = 0, `stat_value1` = 118, `stat_value2` = 118, `stat_value3` = 118, `dmg_min1` = 245, `dmg_max1` = 456, `dmg_min2` = 45, `dmg_max2` = 75, `shadow_res` = 75, `arcane_res` = 75 WHERE (`entry` = 18583);
 UPDATE `item_template` SET `name` = 'Warglaive of Azzinoth', `InventoryType` = 21 WHERE (`entry` = 18583);
+UPDATE `item_template` SET `class` = 2, `displayid` = 45479, `AllowableClass` = 9 WHERE (`entry` = 18583);
+UPDATE `item_template` SET `StatsCount` = 4, `stat_type4` = 31, `stat_value4` = 58 WHERE (`entry` = 18583);
 
 UPDATE `item_template` SET `ItemLevel` = 284, `RequiredLevel` = 0, `stat_value1` = 113, `stat_value2` = 113, `stat_value3` = 113, `dmg_min1` = 238, `dmg_max1` = 442, `dmg_min2` = 40, `dmg_max2` = 65, `shadow_res` = 65, `arcane_res` = 65 WHERE (`entry` = 18584);
 UPDATE `item_template` SET `name` = 'Warglaive of Azzinoth', `InventoryType` = 22 WHERE (`entry` = 18584);
+UPDATE `item_template` SET `class` = 2, `displayid` = 45481, `AllowableClass` = 9 WHERE (`entry` = 18584);
+UPDATE `item_template` SET `StatsCount` = 4, `stat_type4` = 32, `stat_value4` = 52 WHERE (`entry` = 18584);
