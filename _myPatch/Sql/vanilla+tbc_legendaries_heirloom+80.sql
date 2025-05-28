@@ -37,7 +37,7 @@ INSERT INTO `item_template` (`entry`, `class`, `subclass`, `SoundOverrideSubclas
 (7032838, 2, 7, -1, 'Warglaive of Azzinoth', 45481, 5, 0, 0, 1, 1219873, 243974, 22, 9, 32767, 156, 70, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 3, 3, 21, 7, 28, 32, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 107, 199, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1400, 0, 0, 15810, 1, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 1, '', 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 699, 125, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 12340);
 DELETE FROM `item_template` WHERE (`entry` = 7034334);
 INSERT INTO `item_template` (`entry`, `class`, `subclass`, `SoundOverrideSubclass`, `name`, `displayid`, `Quality`, `Flags`, `FlagsExtra`, `BuyCount`, `BuyPrice`, `SellPrice`, `InventoryType`, `AllowableClass`, `AllowableRace`, `ItemLevel`, `RequiredLevel`, `RequiredSkill`, `RequiredSkillRank`, `requiredspell`, `requiredhonorrank`, `RequiredCityRank`, `RequiredReputationFaction`, `RequiredReputationRank`, `maxcount`, `stackable`, `ContainerSlots`, `StatsCount`, `stat_type1`, `stat_value1`, `stat_type2`, `stat_value2`, `stat_type3`, `stat_value3`, `stat_type4`, `stat_value4`, `stat_type5`, `stat_value5`, `stat_type6`, `stat_value6`, `stat_type7`, `stat_value7`, `stat_type8`, `stat_value8`, `stat_type9`, `stat_value9`, `stat_type10`, `stat_value10`, `ScalingStatDistribution`, `ScalingStatValue`, `dmg_min1`, `dmg_max1`, `dmg_type1`, `dmg_min2`, `dmg_max2`, `dmg_type2`, `armor`, `holy_res`, `fire_res`, `nature_res`, `frost_res`, `shadow_res`, `arcane_res`, `delay`, `ammo_type`, `RangedModRange`, `spellid_1`, `spelltrigger_1`, `spellcharges_1`, `spellppmRate_1`, `spellcooldown_1`, `spellcategory_1`, `spellcategorycooldown_1`, `spellid_2`, `spelltrigger_2`, `spellcharges_2`, `spellppmRate_2`, `spellcooldown_2`, `spellcategory_2`, `spellcategorycooldown_2`, `spellid_3`, `spelltrigger_3`, `spellcharges_3`, `spellppmRate_3`, `spellcooldown_3`, `spellcategory_3`, `spellcategorycooldown_3`, `spellid_4`, `spelltrigger_4`, `spellcharges_4`, `spellppmRate_4`, `spellcooldown_4`, `spellcategory_4`, `spellcategorycooldown_4`, `spellid_5`, `spelltrigger_5`, `spellcharges_5`, `spellppmRate_5`, `spellcooldown_5`, `spellcategory_5`, `spellcategorycooldown_5`, `bonding`, `description`, `PageText`, `LanguageID`, `PageMaterial`, `startquest`, `lockid`, `Material`, `sheath`, `RandomProperty`, `RandomSuffix`, `block`, `itemset`, `MaxDurability`, `area`, `Map`, `BagFamily`, `TotemCategory`, `socketColor_1`, `socketContent_1`, `socketColor_2`, `socketContent_2`, `socketColor_3`, `socketContent_3`, `socketBonus`, `GemProperties`, `RequiredDisenchantSkill`, `ArmorDamageModifier`, `duration`, `ItemLimitCategory`, `HolidayId`, `ScriptName`, `DisenchantID`, `FoodType`, `minMoneyLoot`, `maxMoneyLoot`, `flagsCustom`, `VerifiedBuild`) VALUES
-(7034334, 2, 2, -1, 'Thori\'dal, the Stars\' Fury', 48902, 5, 0, 0, 1, 914654, 182930, 15, -1, -1, 164, 70, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 2, 3, 17, 32, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 355.65, 523.65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2700, 0, 100, 15806, 1, 0, 0, 0, 0, 0, 43219, 1, 0, 0, 0, 0, 0, 44972, 1, 0, 0, 0, 0, 0, 46699, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, -1, 1, 'The energy of the Sunwell courses through Thori\'dal.', 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 59.5, 0, 0, 0, '', 0, 0, 0, 0, 0, 12340);
+(7034334, 2, 2, -1, 'Thori’dal, the Stars’ Fury', 48902, 5, 0, 0, 1, 914654, 182930, 15, -1, -1, 164, 70, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 2, 3, 17, 32, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 355.65, 523.65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2700, 0, 100, 15806, 1, 0, 0, 0, 0, 0, 43219, 1, 0, 0, 0, 0, 0, 44972, 1, 0, 0, 0, 0, 0, 46699, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, -1, 1, 'The energy of the Sunwell courses through Thori’dal.', 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 59.5, 0, 0, 0, '', 0, 0, 0, 0, 0, 12340);
 UPDATE `item_template` SET `RequiredLevel` = 1, `ItemLevel` = 187, `quality` = 7 WHERE `entry` IN (7013262, 7017182, 7017782, 7019019, 7022589, 7022630, 7022631, 7022632, 7022691, 7032837, 7032838, 7034334);
 UPDATE `item_template` SET `ScalingStatDistribution` = 293, `ScalingStatValue` = 1032 WHERE (`entry` = 7013262);
 UPDATE `item_template` SET `ScalingStatDistribution` = 1, `ScalingStatValue` = 1032 WHERE (`entry` = 7017182);
@@ -87,7 +87,7 @@ INSERT INTO `item_template` (`entry`, `class`, `subclass`, `SoundOverrideSubclas
 (8032838, 2, 7, -1, 'Warglaive of Azzinoth', 45481, 5, 0, 0, 1, 1219873, 243974, 22, 9, 32767, 156, 70, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 3, 3, 21, 7, 28, 32, 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 107, 199, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1400, 0, 0, 15810, 1, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 0, 0, 0, 0, -1, 0, -1, 1, '', 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 699, 125, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, '', 0, 0, 0, 0, 0, 12340);
 DELETE FROM `item_template` WHERE (`entry` = 8034334);
 INSERT INTO `item_template` (`entry`, `class`, `subclass`, `SoundOverrideSubclass`, `name`, `displayid`, `Quality`, `Flags`, `FlagsExtra`, `BuyCount`, `BuyPrice`, `SellPrice`, `InventoryType`, `AllowableClass`, `AllowableRace`, `ItemLevel`, `RequiredLevel`, `RequiredSkill`, `RequiredSkillRank`, `requiredspell`, `requiredhonorrank`, `RequiredCityRank`, `RequiredReputationFaction`, `RequiredReputationRank`, `maxcount`, `stackable`, `ContainerSlots`, `StatsCount`, `stat_type1`, `stat_value1`, `stat_type2`, `stat_value2`, `stat_type3`, `stat_value3`, `stat_type4`, `stat_value4`, `stat_type5`, `stat_value5`, `stat_type6`, `stat_value6`, `stat_type7`, `stat_value7`, `stat_type8`, `stat_value8`, `stat_type9`, `stat_value9`, `stat_type10`, `stat_value10`, `ScalingStatDistribution`, `ScalingStatValue`, `dmg_min1`, `dmg_max1`, `dmg_type1`, `dmg_min2`, `dmg_max2`, `dmg_type2`, `armor`, `holy_res`, `fire_res`, `nature_res`, `frost_res`, `shadow_res`, `arcane_res`, `delay`, `ammo_type`, `RangedModRange`, `spellid_1`, `spelltrigger_1`, `spellcharges_1`, `spellppmRate_1`, `spellcooldown_1`, `spellcategory_1`, `spellcategorycooldown_1`, `spellid_2`, `spelltrigger_2`, `spellcharges_2`, `spellppmRate_2`, `spellcooldown_2`, `spellcategory_2`, `spellcategorycooldown_2`, `spellid_3`, `spelltrigger_3`, `spellcharges_3`, `spellppmRate_3`, `spellcooldown_3`, `spellcategory_3`, `spellcategorycooldown_3`, `spellid_4`, `spelltrigger_4`, `spellcharges_4`, `spellppmRate_4`, `spellcooldown_4`, `spellcategory_4`, `spellcategorycooldown_4`, `spellid_5`, `spelltrigger_5`, `spellcharges_5`, `spellppmRate_5`, `spellcooldown_5`, `spellcategory_5`, `spellcategorycooldown_5`, `bonding`, `description`, `PageText`, `LanguageID`, `PageMaterial`, `startquest`, `lockid`, `Material`, `sheath`, `RandomProperty`, `RandomSuffix`, `block`, `itemset`, `MaxDurability`, `area`, `Map`, `BagFamily`, `TotemCategory`, `socketColor_1`, `socketContent_1`, `socketColor_2`, `socketContent_2`, `socketColor_3`, `socketContent_3`, `socketBonus`, `GemProperties`, `RequiredDisenchantSkill`, `ArmorDamageModifier`, `duration`, `ItemLimitCategory`, `HolidayId`, `ScriptName`, `DisenchantID`, `FoodType`, `minMoneyLoot`, `maxMoneyLoot`, `flagsCustom`, `VerifiedBuild`) VALUES
-(8034334, 2, 2, -1, 'Thori\'dal, the Stars\' Fury', 48902, 5, 0, 0, 1, 914654, 182930, 15, -1, -1, 164, 70, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 2, 3, 17, 32, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 355.65, 523.65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2700, 0, 100, 15806, 1, 0, 0, 0, 0, 0, 43219, 1, 0, 0, 0, 0, 0, 44972, 1, 0, 0, 0, 0, 0, 46699, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, -1, 1, 'The energy of the Sunwell courses through Thori\'dal.', 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 59.5, 0, 0, 0, '', 0, 0, 0, 0, 0, 12340);
+(8034334, 2, 2, -1, 'Thori’dal, the Stars’ Fury', 48902, 5, 0, 0, 1, 914654, 182930, 15, -1, -1, 164, 70, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 2, 3, 17, 32, 16, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 355.65, 523.65, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2700, 0, 100, 15806, 1, 0, 0, 0, 0, 0, 43219, 1, 0, 0, 0, 0, 0, 44972, 1, 0, 0, 0, 0, 0, 46699, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, -1, 1, 'The energy of the Sunwell courses through Thori’dal.', 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 110, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 59.5, 0, 0, 0, '', 0, 0, 0, 0, 0, 12340);
 UPDATE `item_template` SET `RequiredLevel` = 80, `ItemLevel` = 284 WHERE `entry` IN (8013262, 8017182, 8017782, 8019019, 8022589, 8022630, 8022631, 8022632, 8022691, 8032837, 8032838, 8034334);
 UPDATE `item_template` SET `StatsCount` = 4, `stat_type1` = 4, `stat_value1` = 199, `stat_type2` = 7, `stat_value2` = 223, `stat_type3` = 32, `stat_value3` = 123, `stat_type4` = 38, `stat_value4` = 115, `dmg_min1` = 991, `dmg_max1` = 1487, `socketColor_1` = 2, `socketColor_2` = 2, `socketColor_3` = 2, `socketBonus` = 352 WHERE (`entry` = 8013262);
 UPDATE `item_template` SET `StatsCount` = 4, `stat_value1` = 199, `stat_value2` = 223, `stat_type3` = 38, `stat_value3` = 123, `stat_type4` = 31, `stat_value4` = 115, `dmg_min1` = 954, `dmg_max1` = 1592, `fire_res` = 50, `socketColor_1` = 2, `socketColor_2` = 4, `socketColor_3` = 8, `socketBonus` = 352 WHERE (`entry` = 8017182);
@@ -102,39 +102,44 @@ UPDATE `item_template` SET `StatsCount` = 5, `stat_value1` = 82, `stat_value2` =
 UPDATE `item_template` SET `StatsCount` = 5, `stat_value1` = 79, `stat_value2` = 86, `stat_value3` = 55, `stat_type4` = 31, `stat_value4` = 52, `stat_type5` = 38, `stat_value5` = 141, `dmg_min1` = 252, `dmg_max1` = 478, `socketColor_1` = 8, `socketBonus` = 90 WHERE (`entry` = 8032838);
 UPDATE `item_template` SET `StatsCount` = 4, `stat_value1` = 141, `stat_value2` = 42, `stat_type3` = 35, `stat_value3` = 42, `stat_type4` = 38, `stat_value4` = 119, `dmg_min1` = 731, `dmg_max1` = 1003, `socketColor_1` = 2, `socketBonus` = 90 WHERE (`entry` = 8034334);
 
+DELETE FROM `item_set_names` WHERE `entry` IN (7032837,7032838,8032837,8032838);
 INSERT INTO `item_set_names` (`entry`, `name`, `InventoryType`, `VerifiedBuild`) VALUES 
 (7032837, 'Warglaive of Azzinoth', 21, 0),
 (7032838, 'Warglaive of Azzinoth', 22, 0),
 (8032837, 'Warglaive of Azzinoth', 21, 0),
 (8032838, 'Warglaive of Azzinoth', 22, 0);
 
+DELETE FROM `item_set_names_locale` WHERE `ID` IN (7032837,7032838,8032837,8032838);
 INSERT INTO `item_set_names_locale` (`ID`, `locale`, `Name`, `VerifiedBuild`) VALUES 
-(7032837, 'frFR', 'Glaive de guerre d\'Azzinoth', 0),
-(7032838, 'frFR', 'Glaive de guerre d\'Azzinoth', 0),
-(8032837, 'frFR', 'Glaive de guerre d\'Azzinoth', 0),
-(8032838, 'frFR', 'Glaive de guerre d\'Azzinoth', 0);
+(7032837, 'frFR', 'Glaive de guerre d’Azzinoth', 0),
+(7032838, 'frFR', 'Glaive de guerre d’Azzinoth', 0),
+(8032837, 'frFR', 'Glaive de guerre d’Azzinoth', 0),
+(8032838, 'frFR', 'Glaive de guerre d’Azzinoth', 0);
 
-INSERT INTO item_template_locale (ID, locale, Name, Description, VerifiedBuild) VALUES
+DELETE FROM `item_template_locale` WHERE `ID` IN (701000,7013262,7017182,7017782,7019019,7022589,7022630,7022631,7022632,7022691,7032837,7032838,7034334,8013262,8017182,8017782,8019019,8022589,8022630,8022631,8022632,8022691,8032837,8032838,8034334);
+INSERT INTO `item_template_locale` (ID, locale, Name, Description, VerifiedBuild) VALUES
 (701000, 'frFR', 'Qiraji volant noir', 'Apprenez à invoquer un Qiraji volant noir.', 0),
 (7013262, 'frFR', 'Porte-cendres', 'Lame du généralissime écarlate', 0),
 (7017182, 'frFR', 'Sulfuras, Main de Ragnaros', '', 0),
+(7017782, 'frFR', 'Talisman de l’éclat de lien', '', 0),
 (7019019, 'frFR', 'Lame-tonnerre, épée bénie du Cherchevent', '', 0),
 (7022589, 'frFR', 'Atiesh, grand bâton du Gardien', '', 0),
 (7022630, 'frFR', 'Atiesh, grand bâton du Gardien', '', 0),
 (7022631, 'frFR', 'Atiesh, grand bâton du Gardien', '', 0),
 (7022632, 'frFR', 'Atiesh, grand bâton du Gardien', '', 0),
 (7022691, 'frFR', 'Porte-cendres corrompue', 'Lame du généralissime écarlate', 0),
-(7032837, 'frFR', 'Glaive de guerre d\'Azzinoth', '', 0),
-(7032838, 'frFR', 'Glaive de guerre d\'Azzinoth', '', 0),
-(7034334, 'frFR', 'Thori\'dal, la Fureur des étoiles', 'L’énergie du Puits de soleil parcourt Thori\'dal.', 0),
+(7032837, 'frFR', 'Glaive de guerre d’Azzinoth', '', 0),
+(7032838, 'frFR', 'Glaive de guerre d’Azzinoth', '', 0),
+(7034334, 'frFR', 'Thori’dal, la Fureur des étoiles', 'L’énergie du Puits de soleil parcourt Thori’dal.', 0),
 (8013262, 'frFR', 'Porte-cendres', 'Lame du généralissime écarlate', 0),
 (8017182, 'frFR', 'Sulfuras, Main de Ragnaros', '', 0),
+(8017782, 'frFR', 'Talisman de l’éclat de lien', '', 0),
 (8019019, 'frFR', 'Lame-tonnerre, épée bénie du Cherchevent', '', 0),
 (8022589, 'frFR', 'Atiesh, grand bâton du Gardien', '', 0),
 (8022630, 'frFR', 'Atiesh, grand bâton du Gardien', '', 0),
 (8022631, 'frFR', 'Atiesh, grand bâton du Gardien', '', 0),
 (8022632, 'frFR', 'Atiesh, grand bâton du Gardien', '', 0),
 (8022691, 'frFR', 'Porte-cendres corrompue', 'Lame du généralissime écarlate', 0),
-(8032837, 'frFR', 'Glaive de guerre d\'Azzinoth', '', 0),
-(8032838, 'frFR', 'Glaive de guerre d\'Azzinoth', '', 0),
-(8034334, 'frFR', 'Thori\'dal, la Fureur des étoiles', 'L’énergie du Puits de soleil parcourt Thori\'dal.', 0);
+(8032837, 'frFR', 'Glaive de guerre d’Azzinoth', '', 0),
+(8032838, 'frFR', 'Glaive de guerre d’Azzinoth', '', 0),
+(8034334, 'frFR', 'Thori’dal, la Fureur des étoiles', 'L’énergie du Puits de soleil parcourt Thori’dal.', 0);
