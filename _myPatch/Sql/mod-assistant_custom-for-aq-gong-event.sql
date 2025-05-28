@@ -7,6 +7,17 @@ UPDATE `item_template` SET `BuyPrice` = 1000 WHERE `entry` = 9061 AND `BuyPrice`
 UPDATE `item_template` SET `BuyPrice` = 1000 WHERE `entry` = 8150 AND `BuyPrice` = 0;
 UPDATE `item_template` SET `BuyPrice` = 10000 WHERE `entry` = 21024 AND `BuyPrice` = 0;
 
+UPDATE `item_template` SET `BuyPrice` = 50000 WHERE `entry` = 22373 AND `BuyPrice` = 0;
+UPDATE `item_template` SET `BuyPrice` = 50000 WHERE `entry` = 22374 AND `BuyPrice` = 0;
+UPDATE `item_template` SET `BuyPrice` = 50000 WHERE `entry` = 22375 AND `BuyPrice` = 0;
+UPDATE `item_template` SET `BuyPrice` = 50000 WHERE `entry` = 22376 AND `BuyPrice` = 0;
+
+INSERT INTO `npc_vendor` (`entry`, `item`) VALUES
+(9000045, 22373), -- Naxx comp (Container)
+(9000045, 22374),
+(9000045, 22375),
+(9000045, 22376);
+
 INSERT INTO `npc_vendor` (`entry`, `item`) VALUES
 (9000045, 20384), -- Silithid Carapace Fragment (Container)
 (9000023, 12360), -- Arcanite Bar (Gem: Meta)
