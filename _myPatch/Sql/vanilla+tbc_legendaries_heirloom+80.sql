@@ -51,6 +51,12 @@ UPDATE `item_template` SET `ScalingStatDistribution` = 293, `ScalingStatValue` =
 UPDATE `item_template` SET `ScalingStatDistribution` = 3, `ScalingStatValue` = 516 WHERE (`entry` = 7032837);
 UPDATE `item_template` SET `ScalingStatDistribution` = 3, `ScalingStatValue` = 516 WHERE (`entry` = 7032838);
 UPDATE `item_template` SET `ScalingStatDistribution` = 4, `ScalingStatValue` = 8208 WHERE (`entry` = 7034334);
+UPDATE `item_template` SET `AllowableClass` = 128 WHERE (`entry` = 7022589);
+UPDATE `item_template` SET `AllowableClass` = 256 WHERE (`entry` = 7022630);
+UPDATE `item_template` SET `AllowableClass` = 16 WHERE (`entry` = 7022631);
+UPDATE `item_template` SET `AllowableClass` = 1024 WHERE (`entry` = 7022632);
+UPDATE `item_template` SET `AllowableClass` = 41 WHERE (`entry` = 7032837);
+UPDATE `item_template` SET `AllowableClass` = 41 WHERE (`entry` = 7032838);
 
 DELETE FROM `item_template` WHERE (`entry` = 8013262);
 INSERT INTO `item_template` (`entry`, `class`, `subclass`, `SoundOverrideSubclass`, `name`, `displayid`, `Quality`, `Flags`, `FlagsExtra`, `BuyCount`, `BuyPrice`, `SellPrice`, `InventoryType`, `AllowableClass`, `AllowableRace`, `ItemLevel`, `RequiredLevel`, `RequiredSkill`, `RequiredSkillRank`, `requiredspell`, `requiredhonorrank`, `RequiredCityRank`, `RequiredReputationFaction`, `RequiredReputationRank`, `maxcount`, `stackable`, `ContainerSlots`, `StatsCount`, `stat_type1`, `stat_value1`, `stat_type2`, `stat_value2`, `stat_type3`, `stat_value3`, `stat_type4`, `stat_value4`, `stat_type5`, `stat_value5`, `stat_type6`, `stat_value6`, `stat_type7`, `stat_value7`, `stat_type8`, `stat_value8`, `stat_type9`, `stat_value9`, `stat_type10`, `stat_value10`, `ScalingStatDistribution`, `ScalingStatValue`, `dmg_min1`, `dmg_max1`, `dmg_type1`, `dmg_min2`, `dmg_max2`, `dmg_type2`, `armor`, `holy_res`, `fire_res`, `nature_res`, `frost_res`, `shadow_res`, `arcane_res`, `delay`, `ammo_type`, `RangedModRange`, `spellid_1`, `spelltrigger_1`, `spellcharges_1`, `spellppmRate_1`, `spellcooldown_1`, `spellcategory_1`, `spellcategorycooldown_1`, `spellid_2`, `spelltrigger_2`, `spellcharges_2`, `spellppmRate_2`, `spellcooldown_2`, `spellcategory_2`, `spellcategorycooldown_2`, `spellid_3`, `spelltrigger_3`, `spellcharges_3`, `spellppmRate_3`, `spellcooldown_3`, `spellcategory_3`, `spellcategorycooldown_3`, `spellid_4`, `spelltrigger_4`, `spellcharges_4`, `spellppmRate_4`, `spellcooldown_4`, `spellcategory_4`, `spellcategorycooldown_4`, `spellid_5`, `spelltrigger_5`, `spellcharges_5`, `spellppmRate_5`, `spellcooldown_5`, `spellcategory_5`, `spellcategorycooldown_5`, `bonding`, `description`, `PageText`, `LanguageID`, `PageMaterial`, `startquest`, `lockid`, `Material`, `sheath`, `RandomProperty`, `RandomSuffix`, `block`, `itemset`, `MaxDurability`, `area`, `Map`, `BagFamily`, `TotemCategory`, `socketColor_1`, `socketContent_1`, `socketColor_2`, `socketContent_2`, `socketColor_3`, `socketContent_3`, `socketBonus`, `GemProperties`, `RequiredDisenchantSkill`, `ArmorDamageModifier`, `duration`, `ItemLimitCategory`, `HolidayId`, `ScriptName`, `DisenchantID`, `FoodType`, `minMoneyLoot`, `maxMoneyLoot`, `flagsCustom`, `VerifiedBuild`) VALUES
@@ -101,8 +107,14 @@ UPDATE `item_template` SET `StatsCount` = 5, `stat_value1` = 173, `stat_type2` =
 UPDATE `item_template` SET `StatsCount` = 5, `stat_value1` = 82, `stat_value2` = 89, `stat_value3` = 55, `stat_type4` = 32, `stat_value4` = 55, `stat_type5` = 38, `stat_value5` = 143, `dmg_min1` = 536, `dmg_max1` = 927, `socketColor_1` = 8, `socketBonus` = 90 WHERE (`entry` = 8032837);
 UPDATE `item_template` SET `StatsCount` = 5, `stat_value1` = 79, `stat_value2` = 86, `stat_value3` = 55, `stat_type4` = 31, `stat_value4` = 52, `stat_type5` = 38, `stat_value5` = 141, `dmg_min1` = 252, `dmg_max1` = 478, `socketColor_1` = 8, `socketBonus` = 90 WHERE (`entry` = 8032838);
 UPDATE `item_template` SET `StatsCount` = 4, `stat_value1` = 141, `stat_value2` = 42, `stat_type3` = 35, `stat_value3` = 42, `stat_type4` = 38, `stat_value4` = 119, `dmg_min1` = 731, `dmg_max1` = 1003, `socketColor_1` = 2, `socketBonus` = 90 WHERE (`entry` = 8034334);
+UPDATE `item_template` SET `AllowableClass` = 128 WHERE (`entry` = 8022589);
+UPDATE `item_template` SET `AllowableClass` = 256 WHERE (`entry` = 8022630);
+UPDATE `item_template` SET `AllowableClass` = 16 WHERE (`entry` = 8022631);
+UPDATE `item_template` SET `AllowableClass` = 1024 WHERE (`entry` = 8022632);
+UPDATE `item_template` SET `AllowableClass` = 41 WHERE (`entry` = 8032837);
+UPDATE `item_template` SET `AllowableClass` = 41 WHERE (`entry` = 8032838);
 
-DELETE FROM `item_set_names` WHERE `entry` IN (7032837,7032838,8032837,8032838);
+/* DELETE FROM `item_set_names` WHERE `entry` IN (7032837,7032838,8032837,8032838);
 INSERT INTO `item_set_names` (`entry`, `name`, `InventoryType`, `VerifiedBuild`) VALUES 
 (7032837, 'Warglaive of Azzinoth', 21, 0),
 (7032838, 'Warglaive of Azzinoth', 22, 0),
@@ -142,4 +154,4 @@ INSERT INTO `item_template_locale` (ID, locale, Name, Description, VerifiedBuild
 (8022691, 'frFR', 'Porte-cendres corrompue', 'Lame du généralissime écarlate', 0),
 (8032837, 'frFR', 'Glaive de guerre d’Azzinoth', '', 0),
 (8032838, 'frFR', 'Glaive de guerre d’Azzinoth', '', 0),
-(8034334, 'frFR', 'Thori’dal, la Fureur des étoiles', 'L’énergie du Puits de soleil parcourt Thori’dal.', 0);
+(8034334, 'frFR', 'Thori’dal, la Fureur des étoiles', 'L’énergie du Puits de soleil parcourt Thori’dal.', 0); */
