@@ -97,7 +97,7 @@ INSERT INTO `item_set_names_locale` (`ID`, `locale`, `Name`, `VerifiedBuild`) VA
 /*
 DELETE FROM `item_template_locale` WHERE `ID` IN (701000,7013262,7017182,7017782,7019019,7022589,7022630,7022631,7022632,7022691,7032837,7032838,7034334,8013262,8017182,8017782,8019019,8022589,8022630,8022631,8022632,8022691,8032837,8032838,8034334);
 INSERT INTO `item_template_locale` (ID, locale, Name, Description, VerifiedBuild) VALUES
-(701000, 'frFR', 'Qiraji volant noir', 'Apprenez à invoquer un Qiraji volant noir.', 0),
+(701000, 'frFR', 'Char Qiraji volant noir', 'Apprenez à invoquer un Qiraji volant.', 0),
 (7013262, 'frFR', 'Porte-cendres', 'Lame du généralissime écarlate', 0),
 (7017182, 'frFR', 'Sulfuras, Main de Ragnaros', '', 0),
 (7017782, 'frFR', 'Talisman de l’éclat de lien', '', 0),
