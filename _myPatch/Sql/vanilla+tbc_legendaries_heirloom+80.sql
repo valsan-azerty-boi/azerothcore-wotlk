@@ -222,6 +222,7 @@ INSERT INTO `item_dbc` (`ID`, `ClassID`, `SubclassID`, `Sound_Override_Subclassi
 /* Proper Heirloom */
 UPDATE `item_template` SET `Quality` = 7, `Flags` = 138973184, `ItemLevel` = 187, `StatsCount` = 0, `stat_type1` = 0, `stat_value1` = 0, `stat_type2` = 0, `stat_value2` = 0, `stat_type3` = 0, `stat_value3` = 0, `stat_type4` = 0, `stat_value4` = 0, `stat_type5` = 0, `stat_value5` = 0, `stat_type6` = 0, `stat_value6` = 0, `dmg_min1` = 1, `dmg_max1` = 0, `MaxDurability` = 0 WHERE `entry` IN (7013262, 7017182, 7017782, 7019019, 7022589, 7022630, 7022631, 7022632, 7022691, 7032837, 7032838, 7034334, 7022736, 7036942, 7049623);
 UPDATE `item_template` SET `dmg_min1` = 0, `dmg_max1` = 0 WHERE (`entry` = 7017782);
+UPDATE `item_template` SET `spellid_2` = 28282, `spelltrigger_2` = 1 WHERE `entry` IN (7013262, 8013262);
 
 ------------------------------------------------------------------------
 
