@@ -76,8 +76,8 @@ INSERT IGNORE INTO `npc_vendor` (`entry`, `item`) VALUES
 (9000045, 24102), -- Class books (Container)
 (9000045, 24345), -- Class books (Container)
 (9000045, 29549), -- Class books (Container)
-(9000045, 31505), -- Class books (Container)
-(9000045, 31506), -- Class books (Container)
+--(9000045, 31505), -- Class books (Container) outdated
+--(9000045, 31506), -- Class books (Container) outdated
 (9000045, 31837); -- Class books (Container)
 
 /* Black Qiraji Wasp - Fly mount everywhere */
